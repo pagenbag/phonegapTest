@@ -2,18 +2,35 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="1; url=http://sintrex.duckdns.org:8881">
-        <script type="text/javascript">
+        <style>
+            iframe
+            {
+                width:100%;
+                border:none;
+                margin:none;
+                display:block;
+            }
+        </style>
 
-        document.addEventListener("deviceready", onDeviceReady, false);
-        function onDeviceReady()
-        {
-            // Now safe to use the Codova API
-            window.location="http://sintrex.duckdns.org:8881";
-        }
+        <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript">
         </script>
+
         <title>Sintrex Mobile</title>
     </head>
     <body>
+        <iframe src="http://sintrex.duckdns.org:8881" scrolling="no"></iframe>
     </body>
+    <script>
+        $(document).ready(function()
+        {
+            var viewport =
+            {
+                width  : $(window).width(),
+                height : $(window).height()
+            };
+
+            $('iframe').css("height",viewport.height + "px");
+        });
+    </script>
 </html>
