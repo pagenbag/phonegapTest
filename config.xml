@@ -5,15 +5,16 @@
         id        = "com.example.hello"
         version   = "1.0.0">
 
-    <name>HelloWorld</name>
+    <name>Sintrex Mobile</name>
     <description>
-        Test.
+        Sintrex Mobile View
     </description>
     <author email="strahdza@gmail.com" href="http://">
-        Aggies
+        Pieter Agenbag
     </author>
     <content src="index.html" />
 
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="18" />
     <!--
     <access origin="http://sintrex.duckdns.org"></access>
     <access origin="http://sintrex.duckdns.org:8881"></access>
