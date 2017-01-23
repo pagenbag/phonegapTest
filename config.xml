@@ -14,7 +14,6 @@
     </author>
     <content src="index.html" />
 
-    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="18" />
     <!--
     <access origin="http://sintrex.duckdns.org"></access>
     <access origin="http://sintrex.duckdns.org:8881"></access>
@@ -40,8 +39,7 @@
     <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-installLocation"    value="preferExternal" /> <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
-    <preference name="android-minSdkVersion"      value="7" />
-    <preference name="android-targetSdkVersion"   value="18" />
+    <preference name="android-minSdkVersion"      value="14" />
+    <preference name="android-targetSdkVersion"   value="17" />
 
 </widget>
-
