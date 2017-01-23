@@ -14,6 +14,8 @@
     </author>
     <content src="index.html" />
 
+    <icon src="res/images/sintrex.png" />
+
     <!--
     <access origin="http://sintrex.duckdns.org"></access>
     <access origin="http://sintrex.duckdns.org:8881"></access>
@@ -22,6 +24,7 @@
 
 
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-statusbar" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
